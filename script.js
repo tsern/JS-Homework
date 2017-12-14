@@ -42,7 +42,7 @@ function Task1(){
 	}
 	
 	function validateTime(str) {
-		var result = /^\d\d:\d\d$/.test(str);
+		var result = /^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$/.test(str);
 		return result;
 	}
 }
